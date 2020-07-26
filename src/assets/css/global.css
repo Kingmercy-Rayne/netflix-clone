@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap');
+:root {
+  --primary-color: #051024;
+  --text-color--primary: #000;
+  --text-color--alt: #fff;
+  /* --text-color--tri: #CD4938; */
+  --text-color--tri: #ff2b60;
+  --bg-color--primary: #fff;
+  --bg-color--alt: #fff;
+  --border-color--primary: #ccc;
+  --border-color--alt: #ff2b60;
+  --button-bg--primary: transparent;
+  --button-bg--alt: #ff2b60;
+  --search-area-bg: transparent;
+  --font-family--primary: 'Roboto';
+  --font-family--alt: 'Catamaran';
+  /* padding-LR--global = horizontal spacing around site main components */
+  --padding-LR--global: 15%;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+li {
+  list-style-type: none;
+}
+
+body,
+html {
+  width: 100%;
+  color: var(--text-color--primary);
+  font-family: 'Montserrat', 'Catamaran', Avenir, Helvetica, Arial, sans-serif;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+button {
+  cursor: pointer;
+  background: var(--button-bg--primary);
+  border: solid thin var(--border-color--primary);
+  color: #fff;
+  background: var(--button-background-color);
+  font-size: 1rem;
+  padding: 0.8em 1.4em;
+  transition: all 0.2s ease-in-out;
+  /* border-radius: 10px; */
+}
+button:hover {
+  transform: scale(1.05);
+}

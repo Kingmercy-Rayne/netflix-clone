@@ -10,6 +10,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
+    "vue-clickaway": "^2.2.2",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
   },
@@ -40,11 +41,24 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "linebreak-style": "off",
+      "comma-dangle": [
+        1
+      ]
+    }
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "prettier": {
+    "arrowParens": "always",
+    "trailingComma": "es5",
+    "semi": true,
+    "singleQuote": true,
+    "endOfLine": "auto",
+    "printWidth": 100
+  }
 }
