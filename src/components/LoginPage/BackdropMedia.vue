@@ -1,10 +1,10 @@
 <template>
   <div class="backdrop__media">
-    <!-- <img src="@/assets/img/anders-jilden-AkUR27wtaxs-unsplash.jpg" alt="" /> -->
-    <video autoplay muted loop>
+    <img src="@/assets/img/anders-jilden-AkUR27wtaxs-unsplash.jpg" alt="" />
+    <!-- <video autoplay muted loop>
       <source src="@/assets/vid/hobbit_trailer.mp4" type="video/mp4" />
       Your browser does not support the video tag.
-    </video>
+    </video> -->
   </div>
 </template>
 

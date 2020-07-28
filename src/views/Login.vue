@@ -11,7 +11,7 @@
           <h6>Create a User</h6>
         </div>
       </div>
-      <Login-Foreword />
+      <Login-Foreword :overlay="this.isOverlayEnabled" />
       <Backdrop-Media-Title />
     </div>
     <Login-Overlay @closeLoginOverlay="toggleLoginOverlayOff" v-if="isOverlayEnabled" />
@@ -36,7 +36,7 @@ export default {
   },
   data() {
     return {
-      isOverlayEnabled: true,
+      isOverlayEnabled: false,
     };
   },
   methods: {

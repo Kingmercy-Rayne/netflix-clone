@@ -26,10 +26,11 @@ export default {
   }
 
   input {
+    width: 100%;
     padding: 0.3em 0;
     margin-bottom: 1em;
-    border: none;
     background: none;
+    border: none;
     border-bottom: solid thin #999;
     padding-right: 2em;
     color: var(--text-color--alt);

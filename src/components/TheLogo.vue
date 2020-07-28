@@ -1,10 +1,12 @@
 <template>
-  <div class="the__logo">Netflix <span>.</span></div>
+  <div v-if="this.dark" class="the__logo--dark">strad <span>.</span></div>
+  <div class="the__logo" v-else>Netflix <span>.</span></div>
 </template>
 
 <script>
 export default {
   name: 'TheLogo',
+  props: ['dark'],
 };
 </script>
 
@@ -16,5 +18,19 @@ export default {
   font-weight: 600;
   font-family: var(--font-family--alt);
   text-transform: uppercase;
+}
+
+.the__logo--dark {
+  // border: solid thin crimson;
+  color: var(--text-color--primary);
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: var(--font-family--alt);
+  text-transform: uppercase;
+  border: solid thin purple;
+
+  span {
+    color: var(--text-color--tri);
+  }
 }
 </style>

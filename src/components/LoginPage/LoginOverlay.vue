@@ -1,6 +1,6 @@
 <template>
   <div class="login-overlay" v-if="1" v-on-clickaway="closeLoginOverlay">
-    <h3>Login</h3>
+    <h2>Login</h2>
     <form action="/">
       <Form-Input input="email" />
       <Form-Input input="password" />
@@ -44,7 +44,7 @@ export default {
   justify-content: center;
   align-items: flex-start;
   padding-left: 10%;
-  padding-right: 15%;
+  padding-right: 14%;
   font-family: var(--font-family--alt);
   background: rgba(19, 18, 22, 0.75);
   border: none;
@@ -60,7 +60,7 @@ export default {
     z-index: -100;
   }
 
-  h3 {
+  h2 {
     margin-bottom: 2.5em;
     font-weight: 600;
   }
