@@ -27,7 +27,6 @@ export default {
   font-weight: 600;
   font-family: var(--font-family--alt);
   text-transform: uppercase;
-  border: solid thin purple;
 
   span {
     color: var(--text-color--tri);

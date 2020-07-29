@@ -20,11 +20,12 @@ export default {};
   display: flex;
   align-items: center;
   padding: 0 0.5em;
+  margin: 0.5em 0;
 
   img {
     object-fit: cover;
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     border-radius: 50%;
   }
 
