@@ -1,11 +1,17 @@
 <template>
   <div class="discover-page">
-    Yo.. Hello There
+    <View-Header />
   </div>
 </template>
 
 <script>
-export default {};
+import ViewHeader from '@/components/ViewHeader.vue';
+
+export default {
+  components: {
+    ViewHeader,
+  },
+};
 </script>
 
 <style lang="stylus" scoped>

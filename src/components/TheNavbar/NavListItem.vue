@@ -3,13 +3,15 @@
     <span class="active-nav-identifier">
       <i class="fa fas fa-minus" v-if="0"></i>
     </span>
-    <h4>{{ title }}</h4>
+    <!-- determine which text style to serve based on prop  -->
+    <h5 v-if="!this.isAlt">{{ title }}</h5>
+    <span v-else>{{ title }}</span>
   </li>
 </template>
 
 <script>
 export default {
-  props: ['title', 'route'],
+  props: ['title', 'route', 'isAlt'],
   //   add comparison for route and present list-item.....
   //    to determine active route
 };
@@ -31,6 +33,13 @@ export default {
     color: var(--text-color--tri);
     min-width: 2rem;
     text-align: center;
+  }
+
+  span {
+    font-weight: 400;
+    font-size: 0.7rem;
+    padding: 0.1em 0;
+    margin: 0;
   }
 }
 </style>

@@ -8,6 +8,7 @@
     </div>
     <Profile-Bar />
     <Nav-List />
+    <Nav-List-Alt />
   </div>
 </template>
 
@@ -15,11 +16,13 @@
 import TheLogo from '@/components/TheLogo.vue';
 import ProfileBar from '@/components/TheNavbar/ProfileBar.vue';
 import NavList from '@/components/TheNavbar/NavList.vue';
+import NavListAlt from '@/components/TheNavbar/NavListAlt.vue';
 
 export default {
   components: {
     ProfileBar,
     NavList,
+    NavListAlt,
     TheLogo,
   },
 };
@@ -31,6 +34,9 @@ export default {
   z-index: 10;
   width: 30%;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   padding: 0 1em;
   border: solid thin red;
 

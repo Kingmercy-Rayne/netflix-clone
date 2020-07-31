@@ -30,13 +30,14 @@ export default {
 
 <style lang="stylus" scoped>
 .nav-list {
+  flex-grow: 5;
   width: 100%;
   min-height: 10em;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
-  margin: 2em 0;
+  margin: 1.4em 0;
   text-align: start;
 }
 </style>

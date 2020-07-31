@@ -20,7 +20,7 @@ export default {};
   display: flex;
   align-items: center;
   padding: 0 0.5em;
-  margin: 0.5em 0;
+  margin: 0.2em 0;
 
   img {
     object-fit: cover;
