@@ -1,5 +1,5 @@
 <template>
-  <div v-if="this.dark" class="the__logo--dark">strad <span>.</span></div>
+  <div v-if="this.dark" class="the__logo--dark">Netflix <span>.</span></div>
   <div class="the__logo" v-else>Netflix <span>.</span></div>
 </template>
 

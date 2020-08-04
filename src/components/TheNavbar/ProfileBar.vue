@@ -5,6 +5,7 @@
     <div class="profile-bar-details">
       <h4 class="profile-bar-details__name">Jack dorsey</h4>
       <h5 class="profile-bar-details__level">Level 5</h5>
+      <div class="profile-bar-details__graph"></div>
       <h6 class="profile-bar-details__xp">+45 XP remaining</h6>
     </div>
   </div>
@@ -51,6 +52,14 @@ export default {};
     }
 
     .profile-bar-details__xp {
+    }
+
+    .profile-bar-details__graph {
+      width: 100%;
+      min-height: 1em;
+      border: solid thin green;
+      border-radius: 2em;
+      margin: 0.2em 0;
     }
   }
 }
